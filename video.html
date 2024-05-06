@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+    <body>
+    <!-- untuk navbar -->
+    <div class="container-xl">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                    </svg>
+                </a>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="lagu.html">Lagu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Video</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="greeting.html">Greeting</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lainnya
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="lagu.html">Lagu</a></li>
+                      <li><a class="dropdown-item" href="video.html">Video</a></li>
+                      <li><a class="dropdown-item" href="greeting.html">Greeting</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <!-- content -->
+    <div class="container-xl">
+        <h1>Top 4 Laufey's Videos</h1>
+        <hr>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lSD_L-xic9o?si=_vtg1CZR9bUXdRf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%;"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Laufey - From The Start</h5>
+                <p class="card-text">"From the Start" menceritakan tentang seorang wanita yang jatuh cinta kepada teman prianya. Sayangnya, pria tersebut justru tidak menyukainya. Wanita itu kemudian mulai mengkhayal tentang orang yang ia sukai</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yq6qkq_TWAM?si=ZdoO4dVOJp5WkS55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%;"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Laufey - Promise</h5>
+                <p class="card-text">Lagu Promise yang dipopulerkan oleh Laufey menceritakan tentang seseorang yang telah berjanji tidak akan mendekati orang yang dicintainya. Namun, ternyata ia tidak sanggup untuk melakukannya.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tyKu0uZS86Q?si=jPQjIPAe0ihPEVd3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%;"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Laufey - Falling Behind</h5>
+                <p class="card-text">Makna lagu "Falling Behind" dari Laufey tampaknya dapat relate dengan kebanyakan anak muda. Pasalnya, lagu ini menceritakan tentang seseorang yang merasa tertinggal dengan orang sekitarnya, terutama dalam hal percintaan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ej8RhiSv2-4?si=MS1fiGfyDvssUs42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%;"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Laufey - Valentine</h5>
+                <p class="card-text">Valentine menceritakan tentang seseorang yang tidak pernah tertarik pada cinta sebelumnya. Akan tetapi, ia sekarang memiliki pasangan yang sangat mencintainya. Kondisi itu membuatnya bingung tentang bagaimana harus meresponsnya.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    </body>
+</html>
